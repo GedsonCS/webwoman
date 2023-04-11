@@ -1,0 +1,145 @@
+.Container__Cabecalho{
+    padding: 5%;
+    
+    background-image: url(../../assets/img/header-bg.svg);
+    color: var(--color-grey-6);
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.Titulo__Cabecalho{
+    font-size: var(--title-1);
+    margin: 2rem 0 1rem 0;
+}
+
+.SubTitulo__Cabecalho{
+    font-size: var(--title-3);
+    margin: 1rem 0;
+}
+
+.Container__Cabecalho > p{
+    font-size: --text-2;
+}
+
+.confere{
+    margin: 1rem 0;
+}
+
+.BTN__Cabecalho{
+    background-color: var(--color-brand-1);
+    color: var(--color-grey-6);
+    width: 296px;
+    height: 48px;
+    border-radius: var(--radius-default);
+    border: none;
+    max-width: 100%;
+    margin: 4rem 0;
+    cursor: pointer;
+}
+
+.Container__Conteudo{
+    padding: 5%;
+    background-color: #F1F3F5;
+}
+
+.card{
+    list-style: none;
+    margin: 1rem;
+    background-color: #ffffff;
+}
+
+.enterprise{
+    color: var(--color-grey-2);
+    margin: 0 2rem 0 0;
+}
+
+.Titulo__Card{
+    margin-bottom: 1rem;
+}
+
+.descrition{
+    margin: 1rem 0;
+    color: var(--color-grey-2);
+}
+
+.modalities{
+    color: var(--color-grey-2);
+    background-color: var(--color-grey-3);
+    border-radius: var(--radius-default);
+    margin: 0 1rem 0 0;
+    padding: 2px 3px;
+}
+
+.Candidatar{
+    background-color: var(--color-brand-1);
+    border: none;
+    border-radius: var(--radius-default);
+
+    width: 100%;
+    height: 38px;
+    color: var(--color-grey-6);
+
+    margin: 2rem 0;
+
+    cursor: pointer;
+}
+
+.agrupador{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 1rem 0;
+}
+
+.IMG__lixeira{
+    max-width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.Card__Selecionado{
+    list-style: none;
+    margin: 1rem 1rem 3rem 1rem;
+    background-color: #ffffff;
+}
+
+.location{
+    color: var(--color-grey-2);
+    margin: 0 1rem 0 0;
+}
+
+.some{
+    display: none;
+}
+
+@media(min-width: 769px){
+    .Container__Conteudo{
+        position: relative;
+        display: flex;
+       
+    }
+    
+    .Vagas{
+        width: 65%;
+    }
+
+    .Container__Vagas__Selecionadas{
+        position: sticky;
+        width: 35%;
+        top: 10px;
+    }
+
+    .card > div{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .Candidatar{
+        padding: 3px 1rem;
+    }
+
+    .card > div > div{
+        width: 190px;
+    }
+}
